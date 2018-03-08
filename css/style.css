@@ -1,0 +1,70 @@
+table{
+  border:solid black 5px;
+ align:center;
+  margin-left:30%;
+  margin-right:30%;
+  width:560px;
+  background-color:#222;
+  
+}
+
+#zero{
+  width:220px;
+  margin-left:28px;
+}
+
+button{
+  width:100px;
+  height:50px;
+  margin-bottom:20px;
+  font-weight:bold;
+  font-size:30px;
+  margin-left:20px;
+  border:none;
+  box-shadow:0 5px #999;
+  border-radius:10%;
+  margin-top:15px;
+  color:white;
+  background-color:black;
+}
+button:active{
+  transform:translateY(4px);
+  box-shadow:0 0px #666;
+}
+#equal{
+    height:120px;
+}
+#result{
+  padding-left:30px;
+  width:560px;
+  border:solid black 5px;
+  align:center;
+  margin-left:30%;
+  margin-right:30%;
+  height:120px;
+  margin-bottom:20px;
+  margin-top:50px;
+  background-color:#444;
+  color:white;
+  
+}
+#eqn{
+  font-size:35px;
+  padding-top:45px;
+  color:white;
+  
+}
+#res
+{
+  float:right;
+  font-size:55px;
+  padding-right:20px;
+  font-weight:bold;
+}
+#ac,#ce{
+  background-color:#ff0044;
+}
+body{
+  background-color:black;
+}
+
